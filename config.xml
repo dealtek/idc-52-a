@@ -99,10 +99,17 @@ just android ios
     <!--<preference name="orientation" value="portrait" />-->
 	
     <!-- Customize your app and platform with the preference element. -->
-	
+
 	
 <preference name="StatusBarOverlaysWebView" value="false" />
-<preference name="StatusBarBackgroundColor" value="#6290ee" /> 
+<preference name="StatusBarBackgroundColor" value="#6290ee" />
+	
+<!--	from web
+<preference name="StatusBarOverlaysWebView" value="true" />
+
+<preference name="StatusBarBackgroundColor" value="#000000" />-->
+	
+	
 
 <!--<preference name="phonegap-version" value="cli-6.5.0" />-->
 <preference name="phonegap-version" value="cli-7.1.0" />
@@ -166,11 +173,12 @@ just android ios
     <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
     <gap:plugin name="cordova-plugin-vibration" source="npm" />
 	
-<!--	<content src="https://idcapp.com" />-->
+<!-- no this starts with web <content src="https://idcapp.com" />-->
 	<allow-navigation href="https://idcapp.com/*" />
 
 	<gap:plugin name="cordova-plugin-whitelist" source="npm"/>
 	<gap:plugin name="cordova-plugin-statusbar" source="npm" />
+
 
 <!--<plugin name="cordova-plugin-whitelist" /> from web-->
 
