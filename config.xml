@@ -102,7 +102,9 @@ just android ios
 
 	
 <preference name="StatusBarOverlaysWebView" value="false" />
-<preference name="StatusBarBackgroundColor" value="#6290ee" />
+<preference name="StatusBarBackgroundColor" value="#000000" />
+	
+<!--	my color #6290ee-->
 	
 <!--	from web
 <preference name="StatusBarOverlaysWebView" value="true" />
